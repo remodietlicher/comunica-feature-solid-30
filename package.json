@@ -1,0 +1,39 @@
+{
+  "name": "comunica-feature-solid-30",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@comunica/types": "^2.4.0",
+    "@types/n3": "^1.10.4",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  },
+  "dependencies": {
+    "@comunica/query-sparql-solid": "^2.3.0",
+    "@inrupt/solid-client": "^1.23.3",
+    "@inrupt/solid-client-authn-browser": "^1.12.2",
+    "buffer": "^6.0.3",
+    "https-browserify": "^1.0.0",
+    "n3": "^1.16.2",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "util": "^0.12.4"
+  }
+}
